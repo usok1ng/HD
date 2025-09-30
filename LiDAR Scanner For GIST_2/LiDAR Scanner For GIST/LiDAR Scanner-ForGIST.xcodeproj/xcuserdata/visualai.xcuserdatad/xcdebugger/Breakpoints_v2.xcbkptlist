@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "457BC525-E87A-46A3-B869-D93803C024DE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8489E3C-6474-47B5-8A13-522FED6F16F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "469"
+            endingLineNumber = "469"
+            landmarkName = "processLastArData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8489E3C-6474-47B5-8A13-522FED6F16F1 - ffcc8b51a3259eab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.processLastArData() -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "432"
+                  endingLineNumber = "432"
+                  offsetFromSymbolStart = "2676">
+               </Location>
+               <Location
+                  uuid = "F8489E3C-6474-47B5-8A13-522FED6F16F1 - ffcc8b51a3259007"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.processLastArData() -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "452"
+                  endingLineNumber = "452"
+                  offsetFromSymbolStart = "2676">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3B2CC76-864A-49F7-9193-1FE385ACC1E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "818"
+            endingLineNumber = "818"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "960757C6-8D4D-429B-B812-AB3945527EF1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "655"
+            endingLineNumber = "655"
+            landmarkName = "makePointCloudInfo(arData:depth:mask:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1446557-92DF-4364-8319-E46C1BCB7A5C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "842"
+            endingLineNumber = "842"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F1446557-92DF-4364-8319-E46C1BCB7A5C - 93851a5a85c1d7c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "829"
+                  endingLineNumber = "829"
+                  offsetFromSymbolStart = "5200">
+               </Location>
+               <Location
+                  uuid = "F1446557-92DF-4364-8319-E46C1BCB7A5C - 93851a5a85c1d7e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "828"
+                  endingLineNumber = "828"
+                  offsetFromSymbolStart = "4792">
+               </Location>
+               <Location
+                  uuid = "F1446557-92DF-4364-8319-E46C1BCB7A5C - 93851a5a85c1d7e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "828"
+                  endingLineNumber = "828"
+                  offsetFromSymbolStart = "4908">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA408D85-D243-44F3-A407-CCB2B8B24982"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "854"
+            endingLineNumber = "854"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA408D85-D243-44F3-A407-CCB2B8B24982 - 93851a5a85c1c01b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "745"
+                  endingLineNumber = "745"
+                  offsetFromSymbolStart = "5032">
+               </Location>
+               <Location
+                  uuid = "AA408D85-D243-44F3-A407-CCB2B8B24982 - 93851a5a85c1c1d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "751"
+                  endingLineNumber = "751"
+                  offsetFromSymbolStart = "4940">
+               </Location>
+               <Location
+                  uuid = "AA408D85-D243-44F3-A407-CCB2B8B24982 - 93851a5a85c1daef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "789"
+                  endingLineNumber = "789"
+                  offsetFromSymbolStart = "5336">
+               </Location>
+               <Location
+                  uuid = "AA408D85-D243-44F3-A407-CCB2B8B24982 - 93851a5a85c1d6ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "820"
+                  endingLineNumber = "820"
+                  offsetFromSymbolStart = "5520">
+               </Location>
+               <Location
+                  uuid = "AA408D85-D243-44F3-A407-CCB2B8B24982 - 93851a5a85c1d6ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "820"
+                  endingLineNumber = "820"
+                  offsetFromSymbolStart = "5564">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "824A7A9D-EDD0-4B03-89D9-9B4E593F639F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "797"
+            endingLineNumber = "797"
+            landmarkName = "calculateCurvature(coeffs:count:z_start:z_end:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A6BA65F-7518-4725-BAFB-E68AE984A778"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "461"
+            endingLineNumber = "461"
+            landmarkName = "processLastArData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "524EF6A3-D34B-4744-AD0D-59EA3FAB0C5F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "440"
+            endingLineNumber = "440"
+            landmarkName = "recordBundle(saveSuffix:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AACEEEB-5CF6-427C-933A-F18A61F5688D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "462"
+            endingLineNumber = "462"
+            landmarkName = "processLastArData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17A6B451-B9CA-4ED1-ABA6-265A81CA8576"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "463"
+            endingLineNumber = "463"
+            landmarkName = "processLastArData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A413B4E-B916-4C3A-840E-12FC2CD80E3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "807"
+            endingLineNumber = "807"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "006D7A17-2682-4BB7-8177-3514B6467D64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "855"
+            endingLineNumber = "855"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8FD8082-E67F-4759-A0E8-EC718C45DF48"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "886"
+            endingLineNumber = "886"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D8FD8082-E67F-4759-A0E8-EC718C45DF48 - 93851a5a85c1d45a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "840"
+                  endingLineNumber = "840"
+                  offsetFromSymbolStart = "6180">
+               </Location>
+               <Location
+                  uuid = "D8FD8082-E67F-4759-A0E8-EC718C45DF48 - 93851a5a85c1d45a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "840"
+                  endingLineNumber = "840"
+                  offsetFromSymbolStart = "6020">
+               </Location>
+               <Location
+                  uuid = "D8FD8082-E67F-4759-A0E8-EC718C45DF48 - 93851a5a85c1d45a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "840"
+                  endingLineNumber = "840"
+                  offsetFromSymbolStart = "6152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DB74BA9-85A5-4D2D-BA2E-925E82FE42AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "591"
+            endingLineNumber = "591"
+            landmarkName = "extractValidPointCloud(depth:mask:intrinsics:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5133C9D-990F-43A5-A525-626C1C29ED81"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "599"
+            endingLineNumber = "599"
+            landmarkName = "extractValidPointCloud(depth:mask:intrinsics:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24A52FF0-D7CF-4BE3-9953-D4D149B6F2B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "424"
+            endingLineNumber = "424"
+            landmarkName = "initBundleFolder(suffix:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "24A52FF0-D7CF-4BE3-9953-D4D149B6F2B8 - b2e59d2eff27bc85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.initBundleFolder(suffix: Swift.String) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "420"
+                  endingLineNumber = "420"
+                  offsetFromSymbolStart = "2380">
+               </Location>
+               <Location
+                  uuid = "24A52FF0-D7CF-4BE3-9953-D4D149B6F2B8 - b2e59d2eff27bc85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.initBundleFolder(suffix: Swift.String) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "420"
+                  endingLineNumber = "420"
+                  offsetFromSymbolStart = "1820">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA0DA5C0-A617-4E67-8829-DDCB377B0BCC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "368"
+            endingLineNumber = "368"
+            landmarkName = "writeConfidence(pixelBuffer:fileNameSuffix:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8ACB07D-BCC7-4DF2-B94C-2ADA277CA0C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "841"
+            endingLineNumber = "841"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A8ACB07D-BCC7-4DF2-B94C-2ADA277CA0C1 - 93851a5a85c1d785"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "827"
+                  endingLineNumber = "827"
+                  offsetFromSymbolStart = "4268">
+               </Location>
+               <Location
+                  uuid = "A8ACB07D-BCC7-4DF2-B94C-2ADA277CA0C1 - 93851a5a85c1d785"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.ARProvider.analyzeDepthCurvature(LiDAR_Scanner_ForGIST.ARData) -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/DepthScan/ARDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "827"
+                  endingLineNumber = "827"
+                  offsetFromSymbolStart = "4332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "907AC7CB-82FF-4762-86D0-2398416AAE28"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "847"
+            endingLineNumber = "847"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC898C60-8B44-4EC1-88F9-FA8EFCC9C56F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "720"
+            endingLineNumber = "720"
+            landmarkName = "ordering_target(line:coords:direction:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AE6AAC3-64EA-4D72-BA19-82C83E78670E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "730"
+            endingLineNumber = "730"
+            landmarkName = "ordering_target(line:coords:direction:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3008A11D-81AD-4397-9A58-5D43CB7597D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "727"
+            endingLineNumber = "727"
+            landmarkName = "ordering_target(line:coords:direction:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0259BE7A-6F01-447C-9C53-E8FB2C24A7A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "726"
+            endingLineNumber = "726"
+            landmarkName = "ordering_target(line:coords:direction:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DE3C0EE-B50F-4893-9C4B-2A73EEE0E202"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "733"
+            endingLineNumber = "733"
+            landmarkName = "ordering_target(line:coords:direction:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "194FECF5-81F2-4FCF-A66A-57E25B8ECEF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "785"
+            endingLineNumber = "785"
+            landmarkName = "pointToLineDist(x:y:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06752F2C-247B-49DE-BDFB-9DAC5FB56467"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "794"
+            endingLineNumber = "794"
+            landmarkName = "calculateCurvature(coeffs:count:z_start:z_end:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD8F17B6-CD37-4BAC-9724-68534656FA18"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "850"
+            endingLineNumber = "850"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5FCBA93-BCDF-4B23-9355-C9D3C09D9D59"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "860"
+            endingLineNumber = "860"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "113940E9-B778-4925-9F35-13D01E15D9A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "862"
+            endingLineNumber = "862"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70E1C6B2-D8E8-4D8B-B3CB-DF8BEBF29441"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "864"
+            endingLineNumber = "864"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "390FBD05-082A-4F22-AA97-F97CB7DFB8B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/DepthScan/ARDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "858"
+            endingLineNumber = "858"
+            landmarkName = "analyzeDepthCurvature(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B62F31DB-2978-4805-8E54-0E08CB5B2D5E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/Camera/CameraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0786599-2D70-4766-9034-A2BE755617D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/Camera/CameraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F0786599-2D70-4766-9034-A2BE755617D7 - abf304093a02a514"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #4 () -&gt; SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(LiDAR_Scanner_ForGIST.RoundButton, LiDAR_Scanner_ForGIST.RoundButton, LiDAR_Scanner_ForGIST.RoundButton, LiDAR_Scanner_ForGIST.RoundButton)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0&gt;, SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(LiDAR_Scanner_ForGIST.MetalTextureView, SwiftUI.ZStack&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, LiDAR_Scanner_ForGIST.BezierLineView)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.opacity(Swift.Double) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;)&gt; in LiDAR_Scanner_ForGIST.CameraView.body.getter : some"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/Camera/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "984">
+               </Location>
+               <Location
+                  uuid = "F0786599-2D70-4766-9034-A2BE755617D7 - abf304093a02a514"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #4 () -&gt; SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(LiDAR_Scanner_ForGIST.RoundButton, LiDAR_Scanner_ForGIST.RoundButton, LiDAR_Scanner_ForGIST.RoundButton, LiDAR_Scanner_ForGIST.RoundButton)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.offset(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0&gt;, SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(LiDAR_Scanner_ForGIST.MetalTextureView, SwiftUI.ZStack&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, LiDAR_Scanner_ForGIST.BezierLineView)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.opacity(Swift.Double) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.Button&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;)&gt; in LiDAR_Scanner_ForGIST.CameraView.body.getter : some"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/visualai/Desktop/LiDAR%20Scanner%20For%20GIST/LiDAR%20Scanner/Camera/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "808">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59E71AF8-E0C0-45C0-BC8F-CC27DED9389D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/Control/MeasureList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "317"
+            endingLineNumber = "317"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27A7F058-0DF2-405D-97D3-F3FD64B47A3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/Control/MeasureList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D69042AA-50EA-4616-B0EB-C73CFC551601"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/Control/MeasureList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "308"
+            endingLineNumber = "308"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "842A4669-72AE-41E9-AC8D-17E0B7952C0E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/Control/MeasureList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "303"
+            endingLineNumber = "303"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

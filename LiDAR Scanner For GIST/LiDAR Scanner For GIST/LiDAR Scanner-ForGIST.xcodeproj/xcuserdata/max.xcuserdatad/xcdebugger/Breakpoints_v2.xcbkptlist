@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "07856121-C096-4B57-B76B-5AF618949E8C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F3CF7E6-47B4-409E-94FC-CA0B3CA13138"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LiDAR Scanner/Model/MeasurePoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "LoadRestApi()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4F3CF7E6-47B4-409E-94FC-CA0B3CA13138 - f5e80cb7a612713"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner.MeasurePoint.LoadRestApi() -&gt; ()"
+                  moduleName = "LiDAR Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/swback/Desktop/LiDAR%20Scanner/LiDAR%20Scanner/Model/MeasurePoint.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2844">
+               </Location>
+               <Location
+                  uuid = "4F3CF7E6-47B4-409E-94FC-CA0B3CA13138 - f5e80cb7a612713"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner.MeasurePoint.LoadRestApi() -&gt; ()"
+                  moduleName = "LiDAR Scanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/swback/Desktop/LiDAR%20Scanner/LiDAR%20Scanner/Model/MeasurePoint.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2732">
+               </Location>
+               <Location
+                  uuid = "4F3CF7E6-47B4-409E-94FC-CA0B3CA13138 - c9327abf1590845e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LiDAR_Scanner_ForGIST.MeasurePoint.LoadRestApi() -&gt; ()"
+                  moduleName = "LiDAR Scanner-ForGIST"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/swback/Desktop/LiDAR%20Scanner%202/LiDAR%20Scanner/Model/MeasurePoint.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2732">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
