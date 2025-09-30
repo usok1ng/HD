@@ -35,6 +35,9 @@ extension CVPixelBuffer {
     
 }
 
+// 오프라인 저장 -> 누적 -> 정합 -> 단면 추출 -> 2차 피팅 -> 4개의 값 산출
+
+// 3 x 3 행렬 scalar 나눗셈 연산자 정의
 extension simd_float3x3 {
     static func / (lhs: simd_float3x3, rhs: Float) -> simd_float3x3 {
         return simd_float3x3(
@@ -45,18 +48,21 @@ extension simd_float3x3 {
     }
 }
 
+// 3D 벡터의 x, y, z를 튜플로 꺼내는 프로퍼티
 extension simd_float3 {
     var xyz: (Float, Float, Float) {
         return (self.x, self.y, self.z)
     }
 }
 
+// 3D 포인트를 담는 용도
 struct Point3f {
     var x: Float
     var y: Float
     var z: Float
 }
 
+// ICP 함수가 돌려주는 결과
 struct ICPResult {
     var alignedPoints: UnsafeMutablePointer<Point3f>
     var count: Int32
@@ -70,6 +76,7 @@ struct ICPResult {
 func run_icp(_ source: UnsafePointer<Point3f>, _ source_count: Int32,
              _ target: UnsafePointer<Point3f>, _ target_count: Int32) -> ICPResult
 
+// 포인트클라우드 구조체 (카메라 intrinsic, 포인트클라우드, 카메라 포즈, 각도 2개)
 struct PointCloudInfo {
     let intrinsics: simd_float3x3
     let pointCloud: [simd_float3]
@@ -163,7 +170,6 @@ final class ARProvider: ARDataReceiver, ObservableObject {
     var transformedPointsCloud: [[simd_float3]] = []
     var ConcatPointsCloud:[simd_float3] = []
     let center: simd_int2 = simd_int2(128, 96)
-    var mode: Int = 0
     
     // Create an empty texture.
     static func createTexture(metalDevice: MTLDevice, width: Int, height: Int, usage: MTLTextureUsage, pixelFormat: MTLPixelFormat) -> MTLTexture {
@@ -224,7 +230,7 @@ final class ARProvider: ARDataReceiver, ObservableObject {
             return nil
         }
     }
-    
+    //
     func writeImageYUV(pixelBuffer: CVPixelBuffer, fileNameSuffix : String) {
         // Image is 2 Plane YUV, shape HxW, H/2 x W/2
         
@@ -514,6 +520,8 @@ final class ARProvider: ARDataReceiver, ObservableObject {
         
     }
     
+    // 아래부터는 실제 알고리즘 상 추가된 함수들
+    // CVPixelBuffer를 2차원 배열로 펼치는 함수
     func convertPixelBufferToFloatArray(_ pixelBuffer: CVPixelBuffer) -> [[Float]] {
         CVPixelBufferLockBaseAddress(pixelBuffer, .readOnly)
         defer { CVPixelBufferUnlockBaseAddress(pixelBuffer, .readOnly) }
@@ -555,6 +563,7 @@ final class ARProvider: ARDataReceiver, ObservableObject {
         return result
     }
     
+    // 신뢰도 마스크
     func filterValidRegien(confidence: [[UInt8]], allowedConfidence: UInt8 = 2) -> [[Bool]] {
         let height = confidence.count
         let width = confidence[0].count
@@ -572,6 +581,7 @@ final class ARProvider: ARDataReceiver, ObservableObject {
         return mask
     }
     
+    // 픽셀 좌표 + 깊이 -> 카메라 좌표계 3D 점으로 변환 (unproject)
     func pixelToWorld(x: Int, y: Int, depth: Float, intrinsics: simd_float3x3) -> simd_float3 {
         let fx = intrinsics[0, 0]
         let fy = intrinsics[1, 1]
@@ -585,6 +595,7 @@ final class ARProvider: ARDataReceiver, ObservableObject {
         
     }
     
+    // Depth와 mask를 스캔하여 유효한 픽셀을 3d 포인트 리스트로 변환
     func extractValidPointCloud(depth: [[Float]], mask: [[Bool]], intrinsics: simd_float3x3) -> [simd_float3] {
         let height = depth.count
         let width = depth[0].count
@@ -605,6 +616,7 @@ final class ARProvider: ARDataReceiver, ObservableObject {
         return pointcloud
     }
     
+    // 세 point를 따라 z 기울기로 각을 구하고 평균을 냄
     func angleBetweenPoints(p1: simd_float3, p2: simd_float3, p3: simd_float3) -> Float? {
         let v1 = p2 - p1
         let v2 = p3 - p2
@@ -647,6 +659,7 @@ final class ARProvider: ARDataReceiver, ObservableObject {
         return (xx_angle, yy_angle)
     }
     
+    // 한 프레임 내 depth -> point cloud, 각도 2개, 포즈를 묶음
     func makePointCloudInfo(arData: ARData, depth: [[Float]], mask: [[Bool]]) -> PointCloudInfo {
         let intrinsics = arData.cameraIntrinsics / 7.5
         let pcd = extractValidPointCloud(depth: depth, mask: mask, intrinsics: intrinsics)
@@ -680,6 +693,7 @@ final class ARProvider: ARDataReceiver, ObservableObject {
         return (R, t)
     }
     
+    // 3d point를 다시 투영하여 지정한 선 주변 픽셀만 골라 모음
     func pt2plane(pointcloud: [simd_float3], intrinsic: simd_float3x3, center: simd_int2, length: simd_int1, direction: String = "Vertical") -> ([[Float]], Set<Int>) {
         var extracted: [[Float]] = []
         var coords: Set<Int> = []
@@ -733,6 +747,7 @@ final class ARProvider: ARDataReceiver, ObservableObject {
         return ordered_z
     }
     
+    // least square로 피팅하는 역할
     func fitQuadratic(x: [Float], y: [Float]) -> [Float]? {
         guard x.count == y.count && x.count >= 3 else { return Array([0.0,0.0,0.0]) }
 
@@ -768,6 +783,7 @@ final class ARProvider: ARDataReceiver, ObservableObject {
         }
     }
     
+    // 중요: 피팅된 포물선과 끝점 2개 사이의 최대 수직거리를 구해 curvature로 사용
     func calculateCurvature(coeffs: [Float], count: Int, z_start: Float, z_end: Float) -> Float {
         guard coeffs.count == 3 else { return -1 }
         let a = coeffs[0], b = coeffs[1], c = coeffs[2]
@@ -802,7 +818,8 @@ final class ARProvider: ARDataReceiver, ObservableObject {
 
 
     
-    //GIST 개발 알고리즘 추가 함수
+    //GIST 개발 알고리즘 추가 함수; 전체 파이프라인을 수행하는 역할
+    //위에 새롭게 추가된 함수들은 아래에서의 계산을 위함입니다.
     func analyzeDepthCurvature(_ arData: ARData) {
         guard let depthMap = arData.depthImage,
               let confidenceMap = arData.confidenceImage else { return }
@@ -853,17 +870,16 @@ final class ARProvider: ARDataReceiver, ObservableObject {
                 //            curvature = Float.random(in: (22.0...25.5))
                 print(curvature)
             }
-            
-            if mode == 0 { // real
-                print("pass")
-            } else if mode == 1 { //30mm
-                curvature = Float.random(in: (29.0...31.0))
-            } else if mode == 2 { //23mm
-                curvature = Float.random(in: (22.0...24.0))
-            } else if mode == 3 { // 45mm
-                curvature = Float.random(in: (42.0...48.0))
+            // if mode == 0 { // real
+            //    print("pass")
+            // } else if mode == 1 { //30mm
+            //    curvature = Float.random(in: (29.0...31.0))
+            // } else if mode == 2 { //23mm
+            //    curvature = Float.random(in: (22.0...24.0))
+            // } else if mode == 3 { // 45mm
+            //    curvature = Float.random(in: (42.0...48.0))
                 
-            }
+            // }
             
             // 물체로부터의 거리 계산
             let centerU = 96
@@ -916,4 +932,3 @@ final class ARProvider: ARDataReceiver, ObservableObject {
         print("Depth: \(depthData.count), Image: \(imageData.count), Confidence: \(confidenceData.count)")
     }
 }
-
